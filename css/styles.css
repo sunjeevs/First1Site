@@ -1,0 +1,166 @@
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  /* or just margin: 0; */
+}
+
+h1 {
+  margin: 50px auto 0 auto ;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;  /* To make it dynamic */
+  /* width : 10%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  (or) margin : 0 auto 0 auto */
+
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+    color: #11999E;
+    padding-right: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 450px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.flaticon1{
+  height:200px;
+  width:200px;
+  padding-top: 50px;
+}
+.flaticon2{
+  height:200px;
+  width:200px;
+  width:25%; /* 25% of the div */
+  float: left;
+  padding-right: 30px;
+}
+.flaticon3{
+  height:200px;
+  width:200px;
+  width:25%; /* 25% of the div */
+  float: right;
+  padding-left: 30px;
+}
+
+.flaticon4{
+  position: relative;
+  bottom: 50px;
+  width: 5%;
+  height:5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto; /* auto basically centers it */
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+.middle-container{
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.bottom-container{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background-color: #66BFBF;
+}
+
+hr{
+border-style: none;
+border-top-style: dotted;
+border-width: 5px;
+width : 5%;
+color: grey;
+
+}
+
+.profile
+{
+  padding-bottom: 50px;
+}
+
+.skills{
+  padding-top: 50px;
+}
+
+.contact-me{
+  padding-top: 50px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link{
+  text-decoration: none;
+}
